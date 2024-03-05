@@ -7,11 +7,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "mdogan/zulu"
 brew "automake"
-brew "azure-cli"
 brew "eza"
 brew "libyaml"
 brew "ruby"
-brew "fastlane"
 brew "gdbm"
 brew "gh"
 brew "git"
@@ -20,35 +18,23 @@ brew "go"
 brew "harfbuzz"
 brew "gradle"
 brew "kotlin"
-brew "kubeseal"
-brew "kustomize"
 brew "lazygit"
-brew "luarocks"
-brew "maclaunch"
 brew "mas"
-brew "maven"
-brew "neovim"
 brew "nvm"
 brew "pnpm"
 brew "ruff"
 brew "starship"
 brew "stow"
-brew "watchman"
 brew "zsh-syntax-highlighting"
-cask "1password-cli"
-cask "adobe-creative-cloud"
 cask "android-studio", args: { appdir: "/Applications" }
 cask "bruno", args: { appdir: "/Applications" }
 cask "citrix-workspace", args: { appdir: "/Applications" }
 cask "clion", args: { appdir: "/Applications" }
-cask "discord", args: { appdir: "/Applications" }
 cask "docker", args: { appdir: "/Applications" }
-cask "figma", args: { appdir: "/Applications" }
 cask "google-chrome", args: { appdir: "/Applications" }
 cask "intellij-idea", args: { appdir: "/Applications" }
 cask "iterm2", args: { appdir: "/Applications" }
 cask "jetbrains-toolbox", args: { appdir: "/Applications" }
-cask "keepassxc"
 cask "mactex-no-gui"
 cask "macupdater", args: { appdir: "/Applications" }
 cask "miniconda"
@@ -63,7 +49,6 @@ cask "spotify", args: { appdir: "/Applications" }
 cask "utm"
 cask "zulu-jdk17"
 cask "zulu-jdk21", args: { appdir: "/Applications" }
-mas "1Password for Safari", id: 1569813296
 mas "AdGuard for Safari", id: 1440147259
 mas "Goodnotes", id: 1444383602
 mas "Keynote", id: 409183694

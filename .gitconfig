@@ -4,16 +4,9 @@
 [includeIf "hasconfig:remote.*.url:git@github.zhaw.ch:*/**"]
 	path = ~/.gitconfig-zhaw
 
-[includeIf "hasconfig:remote.*.url:git@git.swisscom.com:*/**"]
-	path = ~/.gitconfig-swisscom
-
 [user]
 	# Set the default name for git to use when creating new commits.
-	name = Jan Kott
-
-[commit]
-	# Sign all commits by default.
-	gpgsign = true
+	name = Joëlle Monhart
 
 [rebase]
 	# Automatically squash commits created with "git commit --squash" during a rebase.
@@ -54,14 +47,6 @@
 	default = simple
 	# Automatically set up a tracking branch when pushing a new branch.
 	autoSetupRemote = true
-
-[gpg]
-	# Sets the GPG format to "ssh".
-  	format = ssh
-
-[gpg "ssh"]
-	# Specifies the 1Password program to be used for SSH with GPG.
-  	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 
 [alias]
 	# Amends the last commit without changing its message.
